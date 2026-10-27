@@ -1,0 +1,115 @@
+{
+  "grid_baseline": {
+    "train": {
+      "accuracy": 0.9092082616179001,
+      "precision": 0.7664041994750657,
+      "recall": 0.7053140096618358,
+      "f1": 0.7345911949685534,
+      "roc_auc": 0.9280458810734248,
+      "average_precision": 0.7437455585137334,
+      "brier": null,
+      "support_pos": 414,
+      "support_neg": 1910,
+      "predicted_pos": 381,
+      "confusion_matrix": {
+        "tn": 1821,
+        "fp": 89,
+        "fn": 122,
+        "tp": 292
+      },
+      "roc_auc_note": null,
+      "top3_hit_rate": 0.7536231884057971
+    },
+    "validation": {
+      "accuracy": 0.9018324607329843,
+      "precision": 0.7394957983193278,
+      "recall": 0.6666666666666666,
+      "f1": 0.701195219123506,
+      "roc_auc": 0.9189262082853855,
+      "average_precision": 0.7148835549421102,
+      "brier": null,
+      "support_pos": 132,
+      "support_neg": 632,
+      "predicted_pos": 119,
+      "confusion_matrix": {
+        "tn": 601,
+        "fp": 31,
+        "fn": 44,
+        "tp": 88
+      },
+      "roc_auc_note": null,
+      "top3_hit_rate": 0.7272727272727273
+    },
+    "test": {
+      "accuracy": 0.8917274939172749,
+      "precision": 0.6870229007633588,
+      "recall": 0.6521739130434783,
+      "f1": 0.6691449814126395,
+      "roc_auc": 0.9097963810492414,
+      "average_precision": 0.6930417838821411,
+      "brier": null,
+      "support_pos": 138,
+      "support_neg": 684,
+      "predicted_pos": 131,
+      "confusion_matrix": {
+        "tn": 643,
+        "fp": 41,
+        "fn": 48,
+        "tp": 90
+      },
+      "roc_auc_note": null,
+      "top3_hit_rate": 0.6811594202898551
+    }
+  },
+  "test_bootstrap": {
+    "n_boot": 2000,
+    "n_races": 46,
+    "ap_ci95": {
+      "grid_baseline": [
+        0.6213924839541496,
+        0.7687433160017295
+      ],
+      "decision_tree": [
+        0.5787458231073986,
+        0.7268342671199003
+      ],
+      "knn": [
+        0.5102794700087648,
+        0.6648198663661123
+      ],
+      "svm": [
+        0.599854712448385,
+        0.7441567400279389
+      ],
+      "random_forest": [
+        0.6205161952454321,
+        0.7657824780512751
+      ]
+    },
+    "ap_diff_vs_grid_baseline_ci95": {
+      "decision_tree": [
+        -0.08467794781768798,
+        -0.007058735001928529
+      ],
+      "knn": [
+        -0.19127075270576083,
+        -0.029952237898496416
+      ],
+      "svm": [
+        -0.07719049274329094,
+        0.03600964391751748
+      ],
+      "random_forest": [
+        -0.040139299890274954,
+        0.03556855329399561
+      ]
+    },
+    "share_boot_better_than_grid_baseline": {
+      "decision_tree": 0.011,
+      "knn": 0.0045,
+      "svm": 0.2495,
+      "random_forest": 0.459
+    }
+  },
+  "note": "Grid baseline is a non-ML reference (rank by starting slot), not one of the four models."
+}

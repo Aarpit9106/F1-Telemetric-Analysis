@@ -1,0 +1,12 @@
+{
+  "recorded_at_utc": "2026-10-26T18:23:07+00:00",
+  "python": "3.13.17",
+  "platform": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39",
+  "processor": "x86_64",
+  "cpu_count": 2,
+  "scikit_learn": "1.9.1",
+  "pandas": "3.0.5",
+  "numpy": "2.5.3",
+  "joblib": "1.6.0",
+  "memory_gb": 7.8
+}

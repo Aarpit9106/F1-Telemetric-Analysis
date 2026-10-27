@@ -1,0 +1,73 @@
+# F1 Race Intelligence — central configuration.
+# Every script reads this file; change values here rather than in code.
+
+project:
+  name: "F1 Race Intelligence"
+  random_seed: 42
+
+data:
+  source_name: "Jolpica-F1 API (Ergast-compatible)"
+  base_url: "https://api.jolpi.ca/ergast/f1"
+  # Seasons before `study_start_season` are downloaded ONLY to give drivers and
+  # constructors a realistic history (career counts, recent form). They never
+  # appear as training/validation/test rows.
+  history_start_season: 2000
+  study_start_season: 2014
+  study_end_season: 2024          # final data cutoff (inclusive)
+  qualifying_start_season: 2014   # qualifying is fetched for study seasons only
+  page_limit: 100                 # Jolpica maximum page size
+  request_timeout_seconds: 30
+  request_pause_seconds: 0.4      # stays well under Jolpica's 4 req/s burst limit
+  max_retries: 4
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+
+target:
+  # classified_only: train/evaluate on entries with a numeric classified finishing
+  # position (positionText is a number). Retirements (R), disqualifications (D),
+  # excluded (E), withdrawn (W), failed to qualify (F) and not classified (N) are
+  # excluded from the supervised dataset and reported separately.
+  policy: "classified_only"
+  podium_max_position: 3
+
+split:
+  # Fixed BEFORE any model selection (see docs/methodology.md, section 4).
+  train_seasons: [2014, 2020]       # inclusive range
+  validation_seasons: [2021, 2022]  # inclusive range — feature-set + hyperparameter selection
+  test_seasons: [2023, 2024]        # inclusive range — touched once, at the end
+
+features:
+  rolling_windows: [3, 5]
+  returning_gap_races: 10   # a driver is "returning" if >= this many championship races passed since their last start
+  # Standardised points scheme (2010+ top-10 scale) used for ALL seasons so that
+  # rule changes (fastest-lap bonus, 2014 double points finale) do not distort form.
+  standard_points: [25, 18, 15, 12, 10, 8, 6, 4, 2, 1]
+  # Team lineages: rebrands keep the same factory/organisation. Used ONLY for
+  # constructor-form continuity; the official constructorId stays the categorical feature.
+  constructor_lineage:
+    force_india: silverstone
+    racing_point: silverstone
+    aston_martin: silverstone
+    toro_rosso: faenza
+    alphatauri: faenza
+    rb: faenza
+    lotus_f1: enstone
+    renault: enstone
+    alpine: enstone
+    sauber: hinwil
+    alfa: hinwil
+    marussia: banbury
+    manor: banbury
+    virgin: banbury
+
+models:
+  dir: "models"
+  # Model selection metric on the validation seasons (threshold-independent and
+  # imbalance-aware). See docs/methodology.md.
+  selection_metric: "average_precision"
+  feature_set_experiments: ["A", "A+B", "A+C", "A+B+C", "A+B+C+D"]
+
+reports:
+  dir: "reports"
+  figures_dir: "reports/figures"
+  results_dir: "reports/results"

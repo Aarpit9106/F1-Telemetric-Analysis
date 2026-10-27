@@ -1,0 +1,3 @@
+# Optional: only needed to regenerate UI screenshots (scripts/capture_screenshots.py)
+-r requirements.txt
+playwright

@@ -1,0 +1,118 @@
+{
+  "rows": 3910,
+  "columns": 57,
+  "class_balance": [
+    {
+      "split": "train",
+      "rows": 2324,
+      "podiums": 414,
+      "non_podiums": 1910,
+      "podium_rate": 0.1781
+    },
+    {
+      "split": "validation",
+      "rows": 764,
+      "podiums": 132,
+      "non_podiums": 632,
+      "podium_rate": 0.1728
+    },
+    {
+      "split": "test",
+      "rows": 822,
+      "podiums": 138,
+      "non_podiums": 684,
+      "podium_rate": 0.1679
+    }
+  ],
+  "podium_rate_grid_1": 0.8803827751196173,
+  "podium_rate_grid_2_3": 0.6777251184834123,
+  "podium_rate_grid_4_6": 0.24546952224052718,
+  "podium_rate_grid_11_plus": 0.014180672268907563,
+  "share_of_podiums_from_top3_grid": 0.6871345029239766,
+  "missing_history": {
+    "rookie_entries": 38,
+    "returning_entries": 18,
+    "team_change_entries": 53,
+    "teams_without_history_entries": 2,
+    "missing_by_feature": {
+      "drv_avg_pos_3": 38,
+      "drv_avg_pos_5": 38,
+      "drv_podiums_5": 38,
+      "drv_ppr_5": 38,
+      "drv_dnf_rate_5": 38,
+      "drv_avg_grid_5": 38,
+      "con_avg_pos_3": 2,
+      "con_avg_pos_5": 2,
+      "con_podiums_5": 2,
+      "con_ppr_5": 2,
+      "drv_has_history": 0,
+      "con_has_history": 0,
+      "drv_gap_races": 38,
+      "drv_career_avg_pos": 38,
+      "drv_career_podium_rate": 38
+    }
+  },
+  "experience": [
+    {
+      "exp_bin": "rookie (0)",
+      "rate": 0.03333333333333333,
+      "n": 30
+    },
+    {
+      "exp_bin": "1-10",
+      "rate": 0.0037593984962406013,
+      "n": 266
+    },
+    {
+      "exp_bin": "11-25",
+      "rate": 0.014285714285714285,
+      "n": 350
+    },
+    {
+      "exp_bin": "26-50",
+      "rate": 0.08902691511387163,
+      "n": 483
+    },
+    {
+      "exp_bin": "51-100",
+      "rate": 0.11203814064362336,
+      "n": 839
+    },
+    {
+      "exp_bin": "101-150",
+      "rate": 0.2711323763955343,
+      "n": 627
+    },
+    {
+      "exp_bin": "151-200",
+      "rate": 0.35699797160243407,
+      "n": 493
+    },
+    {
+      "exp_bin": "200+",
+      "rate": 0.2360097323600973,
+      "n": 822
+    }
+  ],
+  "spearman_with_podium": {
+    "grid_clean": -0.557,
+    "con_avg_pos_5": -0.528,
+    "drv_avg_pos_5": -0.516,
+    "drv_career_starts": 0.248,
+    "drv_races_with_con": 0.273,
+    "con_season_pts_before": 0.423,
+    "drv_season_pts_before": 0.433,
+    "drv_career_podium_rate": 0.442,
+    "con_ppr_5": 0.545,
+    "drv_ppr_5": 0.546,
+    "drv_podiums_5": 0.592
+  },
+  "figures": {
+    "class_balance": "/tmp/claude-0/-home-claude/86274d4c-7d7a-54a1-ad53-673dbe42ffa5/scratchpad/cleanroom/f1-race-intelligence/reports/figures/eda_class_balance.png",
+    "grid_rate": "/tmp/claude-0/-home-claude/86274d4c-7d7a-54a1-ad53-673dbe42ffa5/scratchpad/cleanroom/f1-race-intelligence/reports/figures/eda_podium_rate_by_grid.png",
+    "grid_vs_finish": "/tmp/claude-0/-home-claude/86274d4c-7d7a-54a1-ad53-673dbe42ffa5/scratchpad/cleanroom/f1-race-intelligence/reports/figures/eda_grid_vs_finish.png",
+    "experience": "/tmp/claude-0/-home-claude/86274d4c-7d7a-54a1-ad53-673dbe42ffa5/scratchpad/cleanroom/f1-race-intelligence/reports/figures/eda_experience.png",
+    "correlation": "/tmp/claude-0/-home-claude/86274d4c-7d7a-54a1-ad53-673dbe42ffa5/scratchpad/cleanroom/f1-race-intelligence/reports/figures/eda_correlation.png",
+    "team_trend": "/tmp/claude-0/-home-claude/86274d4c-7d7a-54a1-ad53-673dbe42ffa5/scratchpad/cleanroom/f1-race-intelligence/reports/figures/eda_team_trend.png"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "quality_before_cleaning": {
+    "rows": 10071,
+    "columns": 19,
+    "dtypes": {
+      "season": "str",
+      "round": "str",
+      "race_name": "str",
+      "date": "str",
+      "circuit_id": "str",
+      "circuit_name": "str",
+      "country": "str",
+      "driver_id": "str",
+      "driver_code": "str",
+      "driver_name": "str",
+      "constructor_id": "str",
+      "constructor_name": "str",
+      "car_number": "str",
+      "grid": "str",
+      "position": "str",
+      "position_text": "str",
+      "points": "str",
+      "laps": "str",
+      "status": "str"
+    },
+    "missing_by_column": {
+      "season": 0,
+      "round": 0,
+      "race_name": 0,
+      "date": 0,
+      "circuit_id": 0,
+      "circuit_name": 0,
+      "country": 0,
+      "driver_id": 0,
+      "driver_code": 610,
+      "driver_name": 0,
+      "constructor_id": 0,
+      "constructor_name": 0,
+      "car_number": 0,
+      "grid": 0,
+      "position": 0,
+      "position_text": 0,
+      "points": 0,
+      "laps": 0,
+      "status": 0
+    },
+    "exact_duplicate_rows": 0,
+    "duplicate_keys": 0
+  },
+  "stages": [
+    {
+      "stage": "loaded flat results",
+      "rows": 10071
+    }
+  ],
+  "rows_all_seasons": 10071,
+  "rows_study_period": 4626,
+  "rows_history_only": 5445,
+  "races_study_period": 228,
+  "seasons_study_period": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "rows_included_for_modelling": 3910,
+  "rows_excluded_study_period": 716,
+  "exclusions_by_reason": [
+    {
+      "reason": "retired (not classified)",
+      "rows": 676
+    },
+    {
+      "reason": "withdrawn / did not start",
+      "rows": 31
+    },
+    {
+      "reason": "disqualified",
+      "rows": 9
+    }
+  ],
+  "podium_rate_included": 0.17493606138107418,
+  "podium_count_included": 684,
+  "races_with_fewer_than_3_classified": 0,
+  "qualifying_coverage_study": 0.9965412883700822,
+  "scheduled_races_without_results": []
+}

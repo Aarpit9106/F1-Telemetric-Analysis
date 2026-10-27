@@ -1,0 +1,7 @@
+{
+  "criterion": "highest validation average precision (decided before test evaluation)",
+  "model": "random_forest",
+  "label": "Random Forest",
+  "validation_average_precision": 0.8053370392096234,
+  "test_average_precision": 0.6895331892445528
+}

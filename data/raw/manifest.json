@@ -1,0 +1,618 @@
+{
+  "source": "Jolpica-F1 API (Ergast-compatible)",
+  "base_url": "https://api.jolpi.ca/ergast/f1",
+  "generated_at_utc": "2026-10-26T18:16:32+00:00",
+  "files": [
+    {
+      "kind": "results",
+      "season": 2000,
+      "url": "https://api.jolpi.ca/ergast/f1/2000/results.json",
+      "api_total": 373,
+      "rows_received": 373,
+      "races": 17,
+      "retrieved_at_utc": "2026-10-26T18:16:36+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "results",
+      "season": 2001,
+      "url": "https://api.jolpi.ca/ergast/f1/2001/results.json",
+      "api_total": 373,
+      "rows_received": 373,
+      "races": 17,
+      "retrieved_at_utc": "2026-10-26T18:16:41+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "results",
+      "season": 2002,
+      "url": "https://api.jolpi.ca/ergast/f1/2002/results.json",
+      "api_total": 359,
+      "rows_received": 359,
+      "races": 17,
+      "retrieved_at_utc": "2026-10-26T18:16:44+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "results",
+      "season": 2003,
+      "url": "https://api.jolpi.ca/ergast/f1/2003/results.json",
+      "api_total": 320,
+      "rows_received": 320,
+      "races": 16,
+      "retrieved_at_utc": "2026-10-26T18:16:48+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "results",
+      "season": 2004,
+      "url": "https://api.jolpi.ca/ergast/f1/2004/results.json",
+      "api_total": 360,
+      "rows_received": 360,
+      "races": 18,
+      "retrieved_at_utc": "2026-10-26T18:16:53+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "results",
+      "season": 2005,
+      "url": "https://api.jolpi.ca/ergast/f1/2005/results.json",
+      "api_total": 376,
+      "rows_received": 376,
+      "races": 19,
+      "retrieved_at_utc": "2026-10-26T18:16:57+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "results",
+      "season": 2006,
+      "url": "https://api.jolpi.ca/ergast/f1/2006/results.json",
+      "api_total": 396,
+      "rows_received": 396,
+      "races": 18,
+      "retrieved_at_utc": "2026-10-26T18:17:02+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "results",
+      "season": 2007,
+      "url": "https://api.jolpi.ca/ergast/f1/2007/results.json",
+      "api_total": 374,
+      "rows_received": 374,
+      "races": 17,
+      "retrieved_at_utc": "2026-10-26T18:17:06+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "results",
+      "season": 2008,
+      "url": "https://api.jolpi.ca/ergast/f1/2008/results.json",
+      "api_total": 368,
+      "rows_received": 368,
+      "races": 18,
+      "retrieved_at_utc": "2026-10-26T18:17:10+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "results",
+      "season": 2009,
+      "url": "https://api.jolpi.ca/ergast/f1/2009/results.json",
+      "api_total": 340,
+      "rows_received": 340,
+      "races": 17,
+      "retrieved_at_utc": "2026-10-26T18:17:14+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "results",
+      "season": 2010,
+      "url": "https://api.jolpi.ca/ergast/f1/2010/results.json",
+      "api_total": 456,
+      "rows_received": 456,
+      "races": 19,
+      "retrieved_at_utc": "2026-10-26T18:17:19+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "results",
+      "season": 2011,
+      "url": "https://api.jolpi.ca/ergast/f1/2011/results.json",
+      "api_total": 454,
+      "rows_received": 454,
+      "races": 19,
+      "retrieved_at_utc": "2026-10-26T18:17:25+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "results",
+      "season": 2012,
+      "url": "https://api.jolpi.ca/ergast/f1/2012/results.json",
+      "api_total": 478,
+      "rows_received": 478,
+      "races": 20,
+      "retrieved_at_utc": "2026-10-26T18:17:30+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "results",
+      "season": 2013,
+      "url": "https://api.jolpi.ca/ergast/f1/2013/results.json",
+      "api_total": 418,
+      "rows_received": 418,
+      "races": 19,
+      "retrieved_at_utc": "2026-10-26T18:17:36+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "results",
+      "season": 2014,
+      "url": "https://api.jolpi.ca/ergast/f1/2014/results.json",
+      "api_total": 407,
+      "rows_received": 407,
+      "races": 19,
+      "retrieved_at_utc": "2026-10-26T18:17:39+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "results",
+      "season": 2015,
+      "url": "https://api.jolpi.ca/ergast/f1/2015/results.json",
+      "api_total": 378,
+      "rows_received": 378,
+      "races": 19,
+      "retrieved_at_utc": "2026-10-26T18:17:42+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "results",
+      "season": 2016,
+      "url": "https://api.jolpi.ca/ergast/f1/2016/results.json",
+      "api_total": 462,
+      "rows_received": 462,
+      "races": 21,
+      "retrieved_at_utc": "2026-10-26T18:17:46+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "results",
+      "season": 2017,
+      "url": "https://api.jolpi.ca/ergast/f1/2017/results.json",
+      "api_total": 400,
+      "rows_received": 400,
+      "races": 20,
+      "retrieved_at_utc": "2026-10-26T18:17:49+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "results",
+      "season": 2018,
+      "url": "https://api.jolpi.ca/ergast/f1/2018/results.json",
+      "api_total": 420,
+      "rows_received": 420,
+      "races": 21,
+      "retrieved_at_utc": "2026-10-26T18:17:52+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "results",
+      "season": 2019,
+      "url": "https://api.jolpi.ca/ergast/f1/2019/results.json",
+      "api_total": 420,
+      "rows_received": 420,
+      "races": 21,
+      "retrieved_at_utc": "2026-10-26T18:17:56+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "results",
+      "season": 2020,
+      "url": "https://api.jolpi.ca/ergast/f1/2020/results.json",
+      "api_total": 340,
+      "rows_received": 340,
+      "races": 17,
+      "retrieved_at_utc": "2026-10-26T18:18:09+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "results",
+      "season": 2021,
+      "url": "https://api.jolpi.ca/ergast/f1/2021/results.json",
+      "api_total": 440,
+      "rows_received": 440,
+      "races": 22,
+      "retrieved_at_utc": "2026-10-26T18:18:23+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "results",
+      "season": 2022,
+      "url": "https://api.jolpi.ca/ergast/f1/2022/results.json",
+      "api_total": 440,
+      "rows_received": 440,
+      "races": 22,
+      "retrieved_at_utc": "2026-10-26T18:18:37+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "results",
+      "season": 2023,
+      "url": "https://api.jolpi.ca/ergast/f1/2023/results.json",
+      "api_total": 440,
+      "rows_received": 440,
+      "races": 22,
+      "retrieved_at_utc": "2026-10-26T18:18:56+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "results",
+      "season": 2024,
+      "url": "https://api.jolpi.ca/ergast/f1/2024/results.json",
+      "api_total": 479,
+      "rows_received": 479,
+      "races": 24,
+      "retrieved_at_utc": "2026-10-26T18:19:10+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "qualifying",
+      "season": 2014,
+      "url": "https://api.jolpi.ca/ergast/f1/2014/qualifying.json",
+      "api_total": 405,
+      "rows_received": 405,
+      "races": 19,
+      "retrieved_at_utc": "2026-10-26T18:19:25+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "qualifying",
+      "season": 2015,
+      "url": "https://api.jolpi.ca/ergast/f1/2015/qualifying.json",
+      "api_total": 374,
+      "rows_received": 374,
+      "races": 19,
+      "retrieved_at_utc": "2026-10-26T18:19:35+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "qualifying",
+      "season": 2016,
+      "url": "https://api.jolpi.ca/ergast/f1/2016/qualifying.json",
+      "api_total": 457,
+      "rows_received": 457,
+      "races": 21,
+      "retrieved_at_utc": "2026-10-26T18:19:50+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "qualifying",
+      "season": 2017,
+      "url": "https://api.jolpi.ca/ergast/f1/2017/qualifying.json",
+      "api_total": 398,
+      "rows_received": 398,
+      "races": 20,
+      "retrieved_at_utc": "2026-10-26T18:20:03+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "qualifying",
+      "season": 2018,
+      "url": "https://api.jolpi.ca/ergast/f1/2018/qualifying.json",
+      "api_total": 420,
+      "rows_received": 420,
+      "races": 21,
+      "retrieved_at_utc": "2026-10-26T18:20:17+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "qualifying",
+      "season": 2019,
+      "url": "https://api.jolpi.ca/ergast/f1/2019/qualifying.json",
+      "api_total": 418,
+      "rows_received": 418,
+      "races": 21,
+      "retrieved_at_utc": "2026-10-26T18:20:31+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "qualifying",
+      "season": 2020,
+      "url": "https://api.jolpi.ca/ergast/f1/2020/qualifying.json",
+      "api_total": 340,
+      "rows_received": 340,
+      "races": 17,
+      "retrieved_at_utc": "2026-10-26T18:20:45+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "qualifying",
+      "season": 2021,
+      "url": "https://api.jolpi.ca/ergast/f1/2021/qualifying.json",
+      "api_total": 439,
+      "rows_received": 439,
+      "races": 22,
+      "retrieved_at_utc": "2026-10-26T18:20:58+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "qualifying",
+      "season": 2022,
+      "url": "https://api.jolpi.ca/ergast/f1/2022/qualifying.json",
+      "api_total": 440,
+      "rows_received": 440,
+      "races": 22,
+      "retrieved_at_utc": "2026-10-26T18:21:17+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "qualifying",
+      "season": 2023,
+      "url": "https://api.jolpi.ca/ergast/f1/2023/qualifying.json",
+      "api_total": 440,
+      "rows_received": 440,
+      "races": 22,
+      "retrieved_at_utc": "2026-10-26T18:21:31+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "qualifying",
+      "season": 2024,
+      "url": "https://api.jolpi.ca/ergast/f1/2024/qualifying.json",
+      "api_total": 479,
+      "rows_received": 479,
+      "races": 24,
+      "retrieved_at_utc": "2026-10-26T18:21:45+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "schedule",
+      "season": 2000,
+      "url": "https://api.jolpi.ca/ergast/f1/2000.json",
+      "api_total": 17,
+      "rows_received": 17,
+      "races": 17,
+      "retrieved_at_utc": "2026-10-26T18:21:46+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "schedule",
+      "season": 2001,
+      "url": "https://api.jolpi.ca/ergast/f1/2001.json",
+      "api_total": 17,
+      "rows_received": 17,
+      "races": 17,
+      "retrieved_at_utc": "2026-10-26T18:21:52+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "schedule",
+      "season": 2002,
+      "url": "https://api.jolpi.ca/ergast/f1/2002.json",
+      "api_total": 17,
+      "rows_received": 17,
+      "races": 17,
+      "retrieved_at_utc": "2026-10-26T18:21:53+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "schedule",
+      "season": 2003,
+      "url": "https://api.jolpi.ca/ergast/f1/2003.json",
+      "api_total": 16,
+      "rows_received": 16,
+      "races": 16,
+      "retrieved_at_utc": "2026-10-26T18:21:59+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "schedule",
+      "season": 2004,
+      "url": "https://api.jolpi.ca/ergast/f1/2004.json",
+      "api_total": 18,
+      "rows_received": 18,
+      "races": 18,
+      "retrieved_at_utc": "2026-10-26T18:21:59+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "schedule",
+      "season": 2005,
+      "url": "https://api.jolpi.ca/ergast/f1/2005.json",
+      "api_total": 19,
+      "rows_received": 19,
+      "races": 19,
+      "retrieved_at_utc": "2026-10-26T18:22:05+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "schedule",
+      "season": 2006,
+      "url": "https://api.jolpi.ca/ergast/f1/2006.json",
+      "api_total": 18,
+      "rows_received": 18,
+      "races": 18,
+      "retrieved_at_utc": "2026-10-26T18:22:06+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "schedule",
+      "season": 2007,
+      "url": "https://api.jolpi.ca/ergast/f1/2007.json",
+      "api_total": 17,
+      "rows_received": 17,
+      "races": 17,
+      "retrieved_at_utc": "2026-10-26T18:22:07+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "schedule",
+      "season": 2008,
+      "url": "https://api.jolpi.ca/ergast/f1/2008.json",
+      "api_total": 18,
+      "rows_received": 18,
+      "races": 18,
+      "retrieved_at_utc": "2026-10-26T18:22:13+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "schedule",
+      "season": 2009,
+      "url": "https://api.jolpi.ca/ergast/f1/2009.json",
+      "api_total": 17,
+      "rows_received": 17,
+      "races": 17,
+      "retrieved_at_utc": "2026-10-26T18:22:14+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "schedule",
+      "season": 2010,
+      "url": "https://api.jolpi.ca/ergast/f1/2010.json",
+      "api_total": 19,
+      "rows_received": 19,
+      "races": 19,
+      "retrieved_at_utc": "2026-10-26T18:22:20+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "schedule",
+      "season": 2011,
+      "url": "https://api.jolpi.ca/ergast/f1/2011.json",
+      "api_total": 19,
+      "rows_received": 19,
+      "races": 19,
+      "retrieved_at_utc": "2026-10-26T18:22:21+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "schedule",
+      "season": 2012,
+      "url": "https://api.jolpi.ca/ergast/f1/2012.json",
+      "api_total": 20,
+      "rows_received": 20,
+      "races": 20,
+      "retrieved_at_utc": "2026-10-26T18:22:27+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "schedule",
+      "season": 2013,
+      "url": "https://api.jolpi.ca/ergast/f1/2013.json",
+      "api_total": 19,
+      "rows_received": 19,
+      "races": 19,
+      "retrieved_at_utc": "2026-10-26T18:22:27+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "schedule",
+      "season": 2014,
+      "url": "https://api.jolpi.ca/ergast/f1/2014.json",
+      "api_total": 19,
+      "rows_received": 19,
+      "races": 19,
+      "retrieved_at_utc": "2026-10-26T18:22:28+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "schedule",
+      "season": 2015,
+      "url": "https://api.jolpi.ca/ergast/f1/2015.json",
+      "api_total": 19,
+      "rows_received": 19,
+      "races": 19,
+      "retrieved_at_utc": "2026-10-26T18:22:34+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "schedule",
+      "season": 2016,
+      "url": "https://api.jolpi.ca/ergast/f1/2016.json",
+      "api_total": 21,
+      "rows_received": 21,
+      "races": 21,
+      "retrieved_at_utc": "2026-10-26T18:22:35+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "schedule",
+      "season": 2017,
+      "url": "https://api.jolpi.ca/ergast/f1/2017.json",
+      "api_total": 20,
+      "rows_received": 20,
+      "races": 20,
+      "retrieved_at_utc": "2026-10-26T18:22:41+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "schedule",
+      "season": 2018,
+      "url": "https://api.jolpi.ca/ergast/f1/2018.json",
+      "api_total": 21,
+      "rows_received": 21,
+      "races": 21,
+      "retrieved_at_utc": "2026-10-26T18:22:42+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "schedule",
+      "season": 2019,
+      "url": "https://api.jolpi.ca/ergast/f1/2019.json",
+      "api_total": 21,
+      "rows_received": 21,
+      "races": 21,
+      "retrieved_at_utc": "2026-10-26T18:22:48+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "schedule",
+      "season": 2020,
+      "url": "https://api.jolpi.ca/ergast/f1/2020.json",
+      "api_total": 17,
+      "rows_received": 17,
+      "races": 17,
+      "retrieved_at_utc": "2026-10-26T18:22:49+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "schedule",
+      "season": 2021,
+      "url": "https://api.jolpi.ca/ergast/f1/2021.json",
+      "api_total": 22,
+      "rows_received": 22,
+      "races": 22,
+      "retrieved_at_utc": "2026-10-26T18:22:50+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "schedule",
+      "season": 2022,
+      "url": "https://api.jolpi.ca/ergast/f1/2022.json",
+      "api_total": 22,
+      "rows_received": 22,
+      "races": 22,
+      "retrieved_at_utc": "2026-10-26T18:22:56+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "schedule",
+      "season": 2023,
+      "url": "https://api.jolpi.ca/ergast/f1/2023.json",
+      "api_total": 22,
+      "rows_received": 22,
+      "races": 22,
+      "retrieved_at_utc": "2026-10-26T18:22:56+00:00",
+      "from_cache": false
+    },
+    {
+      "kind": "schedule",
+      "season": 2024,
+      "url": "https://api.jolpi.ca/ergast/f1/2024.json",
+      "api_total": 24,
+      "rows_received": 24,
+      "races": 24,
+      "retrieved_at_utc": "2026-10-26T18:23:02+00:00",
+      "from_cache": false
+    }
+  ],
+  "errors": []
+}
